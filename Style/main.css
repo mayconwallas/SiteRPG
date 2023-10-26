@@ -1,0 +1,49 @@
+/*style geral do main*/
+
+.boxMain {
+    background-color: rgba(30, 255, 0, 0.541);
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 4px;
+}
+
+
+/*style section */
+
+.boxMain section {
+    background-color: rgba(209, 197, 24, 0.541);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+
+
+/*style aside*/
+
+.boxMain aside {
+    background-color: rgb(241, 139, 13, 0.541);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+
+
+
+
+
+/*style div*/
+.boxMain div {
+    background-color: rgba(17, 13, 241, 0.541);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}

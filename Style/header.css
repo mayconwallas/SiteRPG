@@ -1,0 +1,16 @@
+.boxHeader {
+    background-color: rgba(0, 255, 255, 0.541);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxHeader nav ul {
+    display: flex;
+    gap: 8px;
+}
+
+.boxHeader nav ul li {
+    list-style: none;
+}
