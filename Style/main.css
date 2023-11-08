@@ -1,7 +1,7 @@
 /*style geral do main*/
 
 .boxMain {
-    background-color: rgba(30, 255, 0, 0.541);
+    /* background-color: rgba(30, 255, 0, 0.541); */
     width: 85%;
     height: 85%;
     margin: auto;
@@ -34,6 +34,9 @@
     grid-row-end: 4;
 }
 
+.chat {
+    height: 95%;
+}
 
 
 
